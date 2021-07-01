@@ -1,0 +1,75 @@
+* {
+   padding:0;
+   margin:0;
+   vertical-align:baseline;
+   border:0;
+}
+
+html, body {
+   width: 100%;
+   height: 100%;
+}
+
+body {
+   background: white url("../images/background_index.gif") no-repeat;
+   font-family: 'Nunito', sans-serif;
+}
+
+ol, a, a:link, a:visited, a:hover, a:active {
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+header {
+   margin-top: 3%;
+   font-size: 22px;
+   border-bottom: 2px solid black;
+}
+
+header, main {
+   max-width: 35%;
+   margin-left: 5%;
+}
+
+.background-poll-header {
+   padding: 2%;
+   border-radius: 20px 20px 0px 0px;
+}
+
+.background-polls-list {
+   padding: 2% 0% 2% 5%;
+   border-radius: 0px 0px 20px 20px;
+}
+
+.background-poll-header, .background-polls-list {
+   display: flex;
+   justify-content: center;
+   border: 1px solid white;
+   background-color: white;
+   opacity: 0.92;
+}
+
+.poll-list-format {
+   padding: 1%;
+}
+
+.poll-element-format {
+   margin: 2.5%;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   text-align: center;
+   padding: 1%;
+   opacity: 0.92;
+}
+
+.text-footer {
+   font-weight: bold;
+}
